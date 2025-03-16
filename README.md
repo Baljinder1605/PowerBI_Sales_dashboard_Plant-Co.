@@ -1,94 +1,73 @@
-# PowerBI Sales dashboard Plant-Co. :rocket: :chart_with_upwards_trend:
+# **Power BI Sales Dashboard – Plant-Co.** 🚀 📈  
 
-## Overview
-This is a practice project, but it has everything to show for to be a portfolio project. I wanted to demonstrate my powerbi skills but also give actual insights into the sales of a company uncovering insights under layers of data, which was made possible due to PowerBI's drill down feature, which is the reason i feel PowerBI's interface is the best for such a sales report deep dive. i utilized key metrics over different dimensions over a period of 3 years. this dashboard is designed to help stakeholders to track their strenghts and weaknesses interactively and aid in decision making. 
+## **Overview**  
 
-## Dataset
-The dataset consists of three key tables:
+This is a **practice project**, but it has all the components to serve as a **strong portfolio project**. I wanted to **demonstrate my Power BI skills** while also uncovering meaningful **sales insights** hidden beneath layers of data.  
 
-Sales Data
+Thanks to **Power BI's drill-down feature**, this dashboard allows stakeholders to **deep dive into sales performance**, making it easier to **track strengths and weaknesses** interactively and aid in **data-driven decision-making**.  
 
-* Product ID: Unique identifier for each product.
+📊 **Key Highlights:**  
+✅ Analyzes **3 years of sales data**  
+✅ Utilizes **multiple key metrics** across different dimensions  
+✅ Designed to **help stakeholders make informed decisions**  
 
-* Sales (USD): Revenue generated from product sales.
+---
 
-* Quantity Sold: Number of units sold.
+## **📂 Dataset**  
 
-* Price (USD): Selling price per unit.
+The dataset consists of **three key tables:**  
 
-* Cost of Goods Sold (USD): Direct cost associated with production.
+📌 **Sales Data** – Includes transactional sales details  
+📌 **Account Information** – Customer-related insights  
+📌 **Product Information** – Details on product categories and types  
 
-* Transaction Date: Date of each sales transaction.
+---
 
-* Account ID: Unique identifier for customer accounts.
+## **📊 Key Metrics**  
 
-Account Information
+The dashboard tracks several critical metrics:  
 
-* Country Code: Identifies the country associated with the account.
+📌 **Sales Revenue** 💰  
+📌 **Quantity Sold** 📦  
+📌 **Gross Profit %** 📈 – Calculated as:  (Sales - COGS) / Sales * 100), Indicates the profitability of sales.  
+📌 **YTD (Year-to-Date) Measures** – Sales, quantity, and gross profit since the start of the year.  
+📌 **PYTD (Previous Year-to-Date) Measures** – Sales, quantity, and gross profit for the same period last year.  
+📌 **YTD vs PYTD Comparison** 🔄 – Measures the difference between current and previous year sales to analyze trends.  
 
-* Account Name: Name of the customer or business entity.
+---
 
-* Master Account ID: Parent account ID for related transactions.
+## **📊 Dashboard Breakdown**  
 
-* Latitude & Longitude: Geographic coordinates of the account.
+### **1️⃣ Sales YTD vs PYTD | Month - Country - Product**  
+📌 **Waterfall chart** visualizing changes in **sales, quantity, and gross profit** compared to last year.  
+📌 **Green bars** = increase | **Red bars** = decrease.  
+📌 Power BI's **drill-down feature** allows for **step-by-step analysis**:  
+- If sales **dropped in a specific month**, **which country** saw the biggest decline?  
+- Within that country, **which product** performed the worst?  
+- This breakdown provides **a clear picture of trends and weak points** in sales.  
 
-* Country: Full name of the country.
+### **2️⃣ Bottom 10 YTD vs PYTD | Country**  
+📌 **Treemap** highlighting **countries with the largest sales decline** 📉.  
 
-* Postal Code: Postal region for customer location.
+### **3️⃣ Sales YTD and PYTD | Month | Product Type**  
+📌 **Monthly breakdown of sales by product category** for deeper insights 📆.  
 
-* Street Name & Number: Address details for customer segmentation.
+### **4️⃣ Account Profitability Segmentation | GP% and Sales**  
+📌 **Scatter plot** with **GP% on Y-axis** and **Sales on X-axis** to **identify profitability trends** 📊.  
 
-Product Information
+---
 
-* Product Family: High-level categorization of products.
+## **🛠 Tech Stack**  
 
-* Product Family ID: Unique identifier for product family.
+✅ **Excel** – Data preprocessing 📂  
+✅ **Power BI** – Data visualization & analysis 📊  
 
-* Product Group: More specific classification of products.
+---
 
-* Product Group ID: Unique identifier for product group.
+## **🚀 Who is This For?**  
 
-* Product Name: Scientific or commercial product name.
-
-* Product Name ID: Unique identifier for product name.
-
-* Product Size: Size category (Small, Medium, Large).
-
-* Product Type: Classification into Indoor, Landscape, or Outdoor categories.
-
-## Key Metrics
-
-Key Metrics involved were: 
-* Sales 
-* Quantity
-* Gross Profit %: Calculated as (Sales - COGS) / Sales * 100, this metric indicates the profitability of sales.
-* YTD (Year-to-Date) Measures: Sales, quantity, and gross profit measured from the start of the year.
-* PYTD (Previous Year-to-Date) Measures: Sales, quantity, and gross profit measured for the same period in the previous year.
-* YTD Vs PYTD Measures: Comapring sales, quantity, and gross profit from the start of the year against the same period last year.
-
-## Dashboard Breakdown 
-
-* Sales YTD vs PYTD | Month - Country - Product
-
-A waterfall chart was utilized visualizing changes in sales, quantity, gross profit compared to last year.
-
-Green bars represent an increase, red bars a decrease.
-
-PowerBI's drill down feature can be used to follow the thought process - if a perticular month was low in sales since last year in which country did we see major decline and within that country which product struggled the most - this helps to get a picture of what sort of decrease is the company looking at down to bottom.
-
-* Bottom 10 YTD vs PYTD | Country
-
-A tree map highlighting countries with the largest sales decline.
-
-* Sales YTD and PYTD | Month | Product Type
-
-Monthly breakdown of sales by product category.
-
-* Account Profitability Segmentation | GP% and Sales
-
-Scatter plot with GP% on the Y-axis and sales on the X-axis.
-
-## Insights 
-
-## Installation & Setup
-
+This dashboard is perfect for:  
+✔ **Sales Analysts** looking to **track sales trends over time**.  
+✔ **Business Stakeholders** wanting **interactive insights** into performance.  
+✔ **Data Enthusiasts** like me aiming to **enhance Power BI skills** with **real-world sales data**.  
+ 

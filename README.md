@@ -70,4 +70,6 @@ This dashboard is perfect for:
 ✔ **Sales Analysts** looking to **track sales trends over time**.  
 ✔ **Business Stakeholders** wanting **interactive insights** into performance.  
 ✔ **Data Enthusiasts** like me aiming to **enhance Power BI skills** with **real-world sales data**.  
- 
+
+  ![](PlantCO..png)
+
